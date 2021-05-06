@@ -7,7 +7,7 @@ export const Forms = () => {
     <Form>
       <Form.Row>
         <Form.Group as={Col} controlId="formGridEmail">
-          <div class="name">
+          <div className="name">
             <div>
               <Form.Label>First Name</Form.Label>
               <Form.Control type="name" placeholder="Enter first name" />
