@@ -6,14 +6,16 @@ export const Forms = () => {
   return (
     <Form>
       <Form.Row>
-        <Form.Group as={Col} controlId="formGridEmail" class="name">
-          <div>
-            <Form.Label>First Name</Form.Label>
-            <Form.Control type="name" placeholder="Enter first name" />
-          </div>
-          <div>
-            <Form.Label>Last Name</Form.Label>
-            <Form.Control type="name" placeholder="Enter last name" />
+        <Form.Group as={Col} controlId="formGridEmail">
+          <div class="name">
+            <div>
+              <Form.Label>First Name</Form.Label>
+              <Form.Control type="name" placeholder="Enter first name" />
+            </div>
+            <div>
+              <Form.Label>Last Name</Form.Label>
+              <Form.Control type="name" placeholder="Enter last name" />
+            </div>
           </div>
         </Form.Group>
 
