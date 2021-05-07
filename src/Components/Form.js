@@ -12,6 +12,7 @@ export const Forms = () => {
               <Form.Label>First Name</Form.Label>
               <Form.Control type="name" placeholder="Enter first name" />
             </div>
+            {/* hello */}
             <div>
               <Form.Label>Last Name</Form.Label>
               <Form.Control type="name" placeholder="Enter last name" />
