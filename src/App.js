@@ -1,12 +1,10 @@
 import "./App.css";
-
-import { Forms } from "./Components/Form";
+import { Layout } from "./Components/Layout";
 
 function App() {
   return (
     <div className="App">
-      <h1>Fill This Form!</h1>
-      <Forms />
+      <Layout> </Layout>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { Form, Col, Button } from "react-bootstrap";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
-export const Forms = () => {
+export const SignIn = () => {
   return (
     <Form>
       <Form.Row>
@@ -41,29 +41,17 @@ export const Forms = () => {
         <Form.Control placeholder="+216 ..." />
       </Form.Group>
 
-      <Form.Row>
-        <Form.Group as={Col} controlId="formGridCity">
-          <Form.Label>State</Form.Label>
-          <Form.Control />
-        </Form.Group>
-
-        <Form.Group as={Col} controlId="formGridCity">
-          <Form.Label>City</Form.Label>
-          <Form.Control />
-        </Form.Group>
-
-        <Form.Group as={Col} controlId="formGridZip">
-          <Form.Label>Zip</Form.Label>
-          <Form.Control />
-        </Form.Group>
-      </Form.Row>
+      <Form.Group as={Col} controlId="formGridCity">
+        <Form.Label>City</Form.Label>
+        <Form.Control />
+      </Form.Group>
 
       <Form.Group id="formGridCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
 
       <Button variant="primary" type="submit">
-        Submit
+        Sign In
       </Button>
     </Form>
   );
